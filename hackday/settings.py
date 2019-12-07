@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'felony_football.apps.FelonyFootballConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
