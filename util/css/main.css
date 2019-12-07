@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+}
+
+.warpper {
+  height: 100%;
+  width: 100%;
+}
+
+nav {
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.menu {
+  padding: 100px 0 100px 15px;
+}
+
+.card {
+  width: 700px;
+  float: left;
+  opacity: 0;
+}
+
+
