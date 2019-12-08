@@ -20,8 +20,7 @@ from felony_football import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('accounts/', include('django.contrib.auth.urls')),
-    path('', views.index),
-    path('api/', include('felony_football.urls')),
     path('login/', views.login),
     path('signup/', views.signup, name='signup'),
+    path('', include('felony_football.urls')),
 ]
